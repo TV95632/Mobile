@@ -1,0 +1,29 @@
+body {
+    padding: 0cm;
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url(city\ \(2\).jpg) no-repeat;
+    background-size: cover;
+    image-rendering: auto;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: rgb(103, 175, 209);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    border-color: aqua;
+    width: 5cm;
+    height: 5ch;
+    border-radius: 7ch;
+    font-size: medium;
+    background-color: beige;
+}

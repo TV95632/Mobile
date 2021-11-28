@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Mobile</title>
+</head>
+<div align="center">
+
+    <body style="background-color:rgb(229, 236, 232);">
+
+        <h1>Online Mobile Recharge platform</h1>
+        <br>
+        <h2>Please select YOUR operator...!</h2>
+        <br>
+        <br>
+        <br>
+        <select id="11" style="border:0mm;height: 4ch; width: 32ch;font: bold;font-size: 2ch; border-radius: 2ch;background-color: rgb(245, 245, 245);">
+    <option id="00">Select.....</option>
+    <option id="13">BSNL</option>
+    <option id="14">VI</option>
+    <option id="15">Airtel </option>
+    <option id="16"> Jio</option>
+    <option id="17">MTNL</option>
+</select>
+        <br>
+        <br>
+        <br>
+        <button onclick="fun()">SUBMIT</button>
+</div>
+<script>
+    function fun() {
+        var operator = document.getElementById("11").value
+        console.log(operator);
+        if (operator == "BSNL")
+            document.location.href = "https://portal.bsnl.in/myportal/quickrecharge.do";
+        else if (operator == "VI")
+            document.location.href = "https://www.myvi.in/";
+        else if (operator == "Airtel")
+            document.location.href = "https://www.airtel.in/prepaid-recharge/";
+        else if (operator == "Jio")
+            document.location.href = "https://www.jio.com/selfcare/recharge/mobility/";
+        else if (operator == "MTNL")
+            document.location.href = "https://payments.billdesk.com/eTopUp/mtnl/";
+        else window.alert("Select a Valid Operator...")
+    }
+</script>
+<p1 style="position: absolute;bottom: 75px;;color: aquamarine;">Website designed and developed BY GOVIND S SURESH</p1>
+</body>
+
+</html>
